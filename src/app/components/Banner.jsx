@@ -71,7 +71,7 @@ const Banner = () => {
           className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0 px-4"
         >
           <img
-            src="/img/me.jpg"
+            src="/img/me2.jpg"
             alt="Your Image"
             className="w-1/2 md:w-1/3 rounded-full"
           />
