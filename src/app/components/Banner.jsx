@@ -20,7 +20,7 @@ const Banner = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="container mx-auto mt-[100px] relative z-10 py-8 text-white flex flex-col md:flex-row items-center"
+        className="container mx-auto mt-[100px] relative z-10 py-8 px-4 md:px-8 text-white flex flex-col md:flex-row items-center"
       >
         <div className="w-full md:w-1/2">
           <h1 className="text-xl md:text-4xl font-bold text-center md:text-left text-cyan-600">
@@ -68,7 +68,7 @@ const Banner = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0"
+          className="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0 px-4"
         >
           <img
             src="/img/me.jpg"
