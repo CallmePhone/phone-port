@@ -6,6 +6,9 @@ import { motion } from "framer-motion";
 // import Lucide icons
 import { School } from "lucide-react";
 
+// import React icons
+import { LiaSchoolSolid } from "react-icons/lia";
+
 const About = () => {
   return (
     <div
@@ -21,14 +24,16 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-cyan-600 text-center lg:text-left">
             เกี่ยวกับผม
           </h1>
-          <p className="font-bold text-xl mt-3 text-cyan-600 underline underline-offset-3">การศึกษา</p>
-          <div className="mt-5 flex items-center">
-            <School className="text-cyan-600 hover:text-cyan-400 transition-colors duration-300" /> 
-            <span className="ml-2">มัธยมปีที่ 3 จาก โรงเรียนนารีรัตน์ จังหวัดแพร่</span>
-          </div>
-          <div className="mt-5 flex items-center">
-            <School className="text-cyan-600 hover:text-cyan-400 transition-colors duration-300" /> 
-            <span className="ml-2">ปวช. จาก มหาวิทยาลัยเทคนิคแพร่ จังหวัดแพร่ สาขาเทคนิคคอมพิวเตอร์</span>
+          <p className="font-bold text-xl mt-3 text-cyan-600 underline underline-offset-3  flex"><LiaSchoolSolid className="me-2 text-3xl text-white"/>การศึกษา<LiaSchoolSolid className="ms-2 text-3xl text-white"/></p>
+          <div className="mt-5 bg-white bg-opacity-10 p-6 rounded-lg shadow-lg space-y-4">
+            <div className="flex items-center">
+              <LiaSchoolSolid className="text-cyan-600 hover:text-cyan-400 transition-colors duration-300 text-2xl" />
+              <span className="ml-2">มัธยมปีที่ 3 จาก โรงเรียนนารีรัตน์ จังหวัดแพร่</span>
+            </div>
+            <div className="flex items-center">
+              <LiaSchoolSolid className="text-cyan-600 hover:text-cyan-400 transition-colors duration-300 text-2xl" />
+              <span className="ml-2">ปวช. จาก มหาวิทยาลัยเทคนิคแพร่ จังหวัดแพร่ สาขาเทคนิคคอมพิวเตอร์</span>
+            </div>
           </div>
         </div>
         <motion.div
