@@ -11,13 +11,13 @@ import { SiPhp } from "react-icons/si";
 
 const MySkill = () => {
   const skills = [
-    { name: "English language", icon: <RiEnglishInput className="w-8 h-8 text-cyan-500" />, level: 45 },
-    { name: "Database", icon: <Database className="w-8 h-8 text-cyan-500" />, level: 80 },
-    { name: "Php", icon: <SiPhp className="w-8 h-8 text-cyan-500" />, level: 75 },
-    { name: "NextJS", icon: <RiNextjsLine className="w-8 h-8 text-cyan-500" />, level: 70 },
-    { name: "Codeigniter", icon: <DiCodeigniter className="w-8 h-8 text-cyan-500" />, level: 85 },
-    { name: "Git", icon: <GitBranch className="w-8 h-8 text-cyan-500" />, level: 75 },
-    { name: "Tailwind CSS", icon: <RiTailwindCssFill className="w-8 h-8 text-cyan-500" />, level: 80 },
+    { name: "English language", icon: <RiEnglishInput className="w-8 h-8 text-cyan-500" />, level: 0 },
+    { name: "Database", icon: <Database className="w-8 h-8 text-cyan-500" />, level: 0 },
+    { name: "Php", icon: <SiPhp className="w-8 h-8 text-cyan-500" />, level: 0 },
+    { name: "NextJS", icon: <RiNextjsLine className="w-8 h-8 text-cyan-500" />, level: 0 },
+    { name: "Codeigniter", icon: <DiCodeigniter className="w-8 h-8 text-cyan-500" />, level: 0 },
+    { name: "Git", icon: <GitBranch className="w-8 h-8 text-cyan-500" />, level: 0 },
+    { name: "Tailwind CSS", icon: <RiTailwindCssFill className="w-8 h-8 text-cyan-500" />, level: 0 },
   ];
 
   return (
