@@ -1,15 +1,11 @@
 "use client";
 
-import React from "react";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
-import { motion } from "framer-motion";
 
 //* Import lucide-react icons
-import { Github } from "lucide-react";
-import { Facebook } from "lucide-react";
-import { Youtube } from "lucide-react";
-import { ArrowBigDownDash } from "lucide-react";
+import { Facebook, Github, Youtube } from "lucide-react";
 
 const Banner = () => {
 return (
@@ -65,7 +61,7 @@ return (
                     </div>
                 </div>
                 <div className="mt-4">
-                    <Link href="/resume.pdf" target="_blank">
+                    <Link href="/img/resume.pdf" target="_blank">
                         <button type="button">Resume</button>
                     </Link>
                 </div>
