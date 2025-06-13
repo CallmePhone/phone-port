@@ -36,7 +36,7 @@ return (
                 <p className="mt-5 text-base md:text-xl w-full md:w-[550px] text-center md:text-left">
                     สวัสดีครับ ผมโฟน หรือ พิชานันท์ ศรีรัตนะพัฒน์
                     กำลังศึกษาอยู่ที่วิทยาลัยเทคนิคแพร่ สาขาเทคโนโลยีคอมพิวเตอร์ (ปวส)
-                    ชั้นปีที่ 1
+                    ชั้นปีที่ 2
                 </p>
                 <p className="mt-2 font-bold inline-block px-2 py-1 rounded-md bg-slate-800 text-center md:text-left">
                     ** สามารถติดตามผมได้ที่ช่องทางด้านล่างครับ **
